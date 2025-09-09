@@ -14,11 +14,9 @@ Este projeto resolve o desafio técnico de lógica para adoção de animais em u
 Abra o terminal e execute:
 
 ```bash
-git clone https://github.com/seuUsername/desafio-seuUsername-2025.git
+git clone https://github.com/Kauone/desafio-kauone-2025.git
 cd desafio-seuUsername-2025
 ```
-
-> Substitua `seuUsername` pelo seu usuário do GitHub.
 
 ### 3. Instalando as dependências
 
