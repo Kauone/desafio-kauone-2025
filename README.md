@@ -15,7 +15,7 @@ Abra o terminal e execute:
 
 ```bash
 git clone https://github.com/Kauone/desafio-kauone-2025.git
-cd desafio-seuUsername-2025
+cd desafio-kauone-2025
 ```
 
 ### 3. Instalando as dependências
