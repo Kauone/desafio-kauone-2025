@@ -11,7 +11,7 @@ class AbrigoAnimais {
     }
 
     const brinquedosValidos = Object.values(animaisAbrigo).flatMap((animal) => animal.brinquedos)
-    const todosBrinquedos = [...new Set(brinquedosValidos)];
+    const todosBrinquedos = [...new Set(brinquedosValidos)]
 
     const processarEntrada = (entrada) => {
       if (!entrada) {
@@ -31,7 +31,7 @@ class AbrigoAnimais {
     let animaisParaAdotar = []
     if (ordemAnimais) {
       animaisParaAdotar = ordemAnimais.split(",").map((animal) => animal.trim())
-      const animaisUnicos = new Set(animaisParaAdotar);
+      const animaisUnicos = new Set(animaisParaAdotar)
       if (animaisParaAdotar.length !== animaisUnicos.size) {
         return { erro: "Animal inválido" }
       }
@@ -134,5 +134,5 @@ class AbrigoAnimais {
   }
 }
 
-export { AbrigoAnimais as AbrigoAnimais }
+export { AbrigoAnimais as AbrigoAnimais };
 
